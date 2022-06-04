@@ -1,9 +1,12 @@
-mat-card{
+.mat-card{
   width: 300px;
+  align-items: center;
 }
 form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  justify-items: center;
 }
 
 button {
@@ -13,11 +16,16 @@ button {
 .mat-card-rv{
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+.title{
+  display: flex;
+  justify-content: center;
 }
 .img{
- margin: 20px;
+  display: block;
+  margin: 0px auto;
 }
 input{
   padding: 10px;
 }
+

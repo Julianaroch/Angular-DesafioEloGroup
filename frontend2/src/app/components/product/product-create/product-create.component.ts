@@ -32,10 +32,9 @@ export class ProductCreateComponent implements OnInit {
       'Cadastro registrado com Sucesso!',
       'Aperte no botão abaixo!',
       'success'
-    )
+    );
   }
   cancelProduct(): void {
     this.router.navigate(['/products'])
   }
-
 }
